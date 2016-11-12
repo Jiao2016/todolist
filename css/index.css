@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 0.1rem;
+}
+ul{
+    list-style: none;
+}
+.box{
+    width: 7.5rem;
+    max-width: 700px;
+    max-height: 50px;
+    background-color: #000;
+    margin:  0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*background-image: url("../images/bg1.jpg");*/
+}
+.srk{
+    width:5rem;
+    max-width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.btn{
+    width:0.8rem;
+    max-width:80px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.innerbox{
+    width: 7.5rem;
+    max-width: 700px;
+    height: auto;
+    margin:  0 auto;
+    padding: 0.2rem;
+    border:1px solid #000;
+    background-image: url("../images/bg1.jpg");
+}
+.innertit{
+    display: block;
+    width:100%;
+    padding: .05rem .5rem .05rem 0.2rem;
+    font-size: 18px;
+    background-color: #fff98e;
+}
+.num{
+    float: right;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    background-color: #ff726d;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    font-style: normal;
+}
+.sj{
+    width: 100%;
+    padding: 5px ;
+    /*background-color: #c0fffd;*/
+}
+.sj li{
+    padding: 0.03rem 0;
+    border-bottom: 1px solid #ccc;
+}
+.sj li:hover{
+    /*background-color: #70f8ff;*/
+}
+.del{
+    float: right;
+    font-style: normal;
+    color: blue;
+    cursor: pointer;
+    margin-right: 40px;
+}
+.del:hover{
+    color: red;
+}
